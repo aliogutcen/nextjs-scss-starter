@@ -1,0 +1,9 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: $spacing-unit;
+}
+
+.grid-item {
+    grid-column: span 1;
+}

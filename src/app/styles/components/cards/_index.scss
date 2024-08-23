@@ -1,0 +1,24 @@
+.card {
+    background-color: $color-white;
+    border: 1px solid $color-muted;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: $spacing-unit;
+    margin-bottom: $spacing-unit;
+
+    &__header {
+        font-size: $font-size-lg;
+        color: $color-dark;
+        margin-bottom: $spacing-unit / 2;
+    }
+
+    &__body {
+        font-size: $font-size-base;
+        color: $color-muted;
+    }
+
+    &__footer {
+        text-align: right;
+        margin-top: $spacing-unit;
+    }
+}

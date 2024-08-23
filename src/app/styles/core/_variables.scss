@@ -1,0 +1,39 @@
+
+$color-primary: #007bff;
+$color-secondary: #6c757d;
+$color-success: #28a745;
+$color-danger: #dc3545;
+$color-warning: #ffc107;
+$color-info: #17a2b8;
+$color-light: #f8f9fa;
+$color-dark: #343a40;
+$color-muted: #6c757d;
+$color-white: #ffffff;
+$color-black: #000000;
+
+$font-family-base: 'Roboto', sans-serif;
+$font-family-heading: 'Montserrat', sans-serif;
+$font-size-base: 1rem; 
+$line-height-base: 1.5;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+
+$spacing-unit: 1rem;
+$border-radius: 0.25rem; 
+
+// Z-index Yönetimi
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
+
+$font-size-xs: 0.75rem; 
+$font-size-sm: 0.875rem; 
+$font-size-md: 1rem; 
+$font-size-lg: 1.25rem; 
+$font-size-xl: 1.5rem; 

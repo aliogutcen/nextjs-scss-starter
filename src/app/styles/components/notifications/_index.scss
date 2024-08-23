@@ -1,0 +1,20 @@
+.notification {
+    padding: $spacing-unit;
+    border-radius: $border-radius;
+    margin-bottom: $spacing-unit;
+
+    &--success {
+        background-color: $color-success;
+        color: $color-light;
+    }
+
+    &--error {
+        background-color: $color-danger;
+        color: $color-light;
+    }
+
+    &--info {
+        background-color: $color-info;
+        color: $color-light;
+    }
+}

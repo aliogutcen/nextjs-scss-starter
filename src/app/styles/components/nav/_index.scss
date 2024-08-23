@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: $spacing-unit;
+  background-color: $color-dark;
+
+  .nav__item {
+    color: $color-light;
+    padding: $spacing-unit / 2;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

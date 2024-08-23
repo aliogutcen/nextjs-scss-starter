@@ -1,0 +1,14 @@
+$colors: (
+  "primary": $color-primary,
+  "secondary": $color-secondary,
+  "success": $color-success,
+  "danger": $color-danger,
+  "warning": $color-warning,
+  "info": $color-info,
+  "light": $color-light,
+  "dark": $color-dark,
+);
+
+@function get-color($color-name) {
+  @return map-get($colors, $color-name);
+}

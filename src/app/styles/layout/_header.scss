@@ -1,0 +1,19 @@
+.header {
+    background-color: $color-dark;
+    color: $color-light;
+    padding: $spacing-unit;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+
+        .nav__item {
+            color: $color-light;
+            margin-right: $spacing-unit;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.input {
+    width: 100%;
+    padding: $spacing-unit;
+    border: 1px solid $color-muted;
+    border-radius: $border-radius;
+    font-size: $font-size-base;
+    color: $color-dark;
+
+    &:focus {
+        border-color: $color-primary;
+        outline: none;
+    }
+}
+
+.label {
+    font-size: $font-size-sm;
+    color: $color-muted;
+    margin-bottom: $spacing-unit / 2;
+}

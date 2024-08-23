@@ -1,0 +1,15 @@
+.sidebar {
+    width: 250px;
+    background-color: $color-light;
+    padding: $spacing-unit;
+
+    .sidebar__item {
+        padding: $spacing-unit;
+        color: $color-dark;
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-light;
+        }
+    }
+}

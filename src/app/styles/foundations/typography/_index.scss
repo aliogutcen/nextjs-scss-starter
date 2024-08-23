@@ -1,0 +1,18 @@
+$font-sizes: (
+  "xs": 0.75rem,
+  "sm": 0.875rem,
+  "md": 1rem,
+  "lg": 1.25rem,
+  "xl": 1.5rem,
+  "xxl": 2rem
+);
+
+@mixin font-size($size) {
+  font-size: map-get($font-sizes, $size);
+}
+
+body {
+  @include font-size("md");
+  line-height: $line-height-base;
+  font-family: $font-family-base;
+}
